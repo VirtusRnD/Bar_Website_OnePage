@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Diller Room Özel Cam & Neumorphism Katmanları */
+.neu-glass-card {
+  background: rgba(18, 16, 24, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 10px 10px 25px #040306, -8px -8px 25px #1c1a26;
+  border-radius: 28px;
+}
+
+.neu-inset-input {
+  background: #0b0a10;
+  box-shadow: inset 4px 4px 10px #040306, inset -4px -4px 10px #181622;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.gold-glow {
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
